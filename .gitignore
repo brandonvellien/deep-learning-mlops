@@ -1,0 +1,24 @@
+# Fichiers et dossiers spécifiques au projet
+cats_dogs_classifier.h5  # Votre modèle entraîné (il est lourd, nous le chargerons depuis l'API)
+training_history.png     # Graphique d'entraînement (peut être généré à nouveau)
+
+# Environnement virtuel Python
+venv_dlops/
+
+# Dossiers de données volumineux
+data/                    # Le dataset (ne pas le versionner, il est sur Kaggle)
+
+# Fichiers Python générés
+__pycache__/
+*.pyc
+
+# Fichiers de log
+*.log
+
+# Fichiers locaux Docker (si non gérés par compose)
+.env
+secrets/
+
+# Fichiers système ou d'IDE
+.DS_Store
+.vscode/
