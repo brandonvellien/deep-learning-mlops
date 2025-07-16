@@ -1,12 +1,12 @@
 # Fichiers et dossiers spécifiques au projet
-cats_dogs_classifier.h5  # Votre modèle entraîné (il est lourd, nous le chargerons depuis l'API)
-training_history.png     # Graphique d'entraînement (peut être généré à nouveau)
+cats_dogs_classifier.h5
+training_history.png     
 
 # Environnement virtuel Python
 venv_dlops/
 
 # Dossiers de données volumineux
-data/                    # Le dataset (ne pas le versionner, il est sur Kaggle)
+data/
 
 # Fichiers Python générés
 __pycache__/
